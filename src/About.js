@@ -1,5 +1,5 @@
 
-function App() {
+function About() {
   return (
     <div className="container-fluid p-0">
       <div className="row">
@@ -34,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;
