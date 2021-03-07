@@ -1,20 +1,20 @@
-//import foods from "../shared/list";
+import { PROJECTS } from '../shared/projects';
 
 function Listing() {
 
-    const projects = [
-        { id: 1, name: 'project1' },
-        { id: 2, name: 'project2' }
-    ];
-
+    const projects = PROJECTS;
 
     return (
         <div className="row p-4">
-            <div className="card text-dark">
-                {projects.map(project => (
-                    <div key={project.id}>{project.name}</div>
-                ))}
-            </div>
+            <h1>PROJECTS</h1>
+            {projects.map(project => (
+                <div className="col-12 col-md-6 col-xl-4 my-3" key={project.id}>
+                    <div className="card text-center p-3">
+                        <h2>{project.name}</h2>
+                        <img src={project.src} alt={project.alt} />
+                    </div>
+                </div>
+            ))}
         </div>
     );
 

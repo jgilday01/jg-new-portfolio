@@ -16,9 +16,15 @@ code {
     monospace;
 }
 
+
+.card {
+  color: #EEE;
+  background: #555;
+}
+
 .rounded-img {
-    border: 2px solid #555;
-    border-radius: 50px;
+    border: 2px solid #333;
+    border-radius: 25%;
     margin: 0 35px;
     width: 300px;
 }

@@ -6,7 +6,7 @@ function About() {
 
         <div className="p-3">
           <h1>ABOUT ME</h1>
-          <img src={'images/profile-pic.jpg'} className='rounded-img float-end' alt='headshot' />
+          <img src={'images/profile-pic.jpg'} className='rounded-img img-fluid mx-auto d-block' alt='headshot' />
 
           <p>
             I have a strong passion for collaboration and creativity. I feel there is something special about taking a concept and then turning it into a reality.
