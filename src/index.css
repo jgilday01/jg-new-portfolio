@@ -22,9 +22,8 @@ code {
   background: #555;
 }
 
-.rounded-img {
-    border: 2px solid #333;
-    border-radius: 25%;
+.profile-img {
+    border: 2px solid #777;
     margin: 0 35px;
     width: 300px;
 }

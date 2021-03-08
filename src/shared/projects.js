@@ -1,7 +1,7 @@
 export const PROJECTS = [
     {
         id: 1,
-        name: "Nucamp React Project",
+        name: "Nucamp React",
         src: "images/React-Project.png",
         alt: "screenshot of MMM react project",
         desc: "This was boosdtrap 4 converted to React"
@@ -22,14 +22,14 @@ export const PROJECTS = [
     },
     {
         id: 4,
-        name: "G-Force Multimedia",
+        name: "IMM120 Multimedia",
         src: "images/IMM120.png",
         alt: "screenshot of class project for IMM120",
         desc: "Sample of a multimedia company"
     },
     {
         id: 5,
-        name: "Roc-It Science",
+        name: "DPR241 band site",
         src: "images/DPR241.png",
         alt: "screenshot of meet globalbot website",
         desc: "sample band website"

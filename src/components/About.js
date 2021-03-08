@@ -2,11 +2,11 @@
 function About() {
   return (
     <div className="row">
-      <div className="col-12">
+      <div className="offset-1 col-10">
 
         <div className="p-3">
-          <h1>ABOUT ME</h1>
-          <img src={'images/profile-pic.jpg'} className='rounded-img img-fluid mx-auto d-block' alt='headshot' />
+          <h1 className="text-center">ABOUT ME</h1>
+          <img src={'images/profile-pic.jpg'} className='profile-img rounded-circle img-fluid shadow-lg mx-auto my-5 d-block' alt='headshot' />
 
           <p>
             I have a strong passion for collaboration and creativity. I feel there is something special about taking a concept and then turning it into a reality.
