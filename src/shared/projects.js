@@ -4,7 +4,7 @@ export const PROJECTS = [
         name: "Nucamp React",
         src: "images/React-Project.png",
         alt: "screenshot of MMM react project",
-        desc: "This was boosdtrap 4 converted to React"
+        desc: "This was is a Nucamp bootcamp project which was created in Bootstrap 4 initially and then converted over to React. The site is a mock eatery called Muffins, Meatballs and Mules. "
     },
     {
         id: 2,
