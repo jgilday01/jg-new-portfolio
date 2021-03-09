@@ -24,6 +24,9 @@ function Listing() {
                             <div className="card text-center text-light bg-secondary p-3 h-100">
                                 <h2>{project.name}</h2>
                                 <div>{project.desc}</div>
+                                {
+                                    project.link ? <a href={project.link} target='_blank' className='btn btn-primary m-5'>View the site</a> : ""
+                                }
                             </div>
                         </BackSide>
                     </Flippy>
