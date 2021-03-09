@@ -1,14 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.css';
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import About from './components/About';
 import Listing from './components/Listing'
 
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <About />
       <Listing />
     </div>

@@ -11,7 +11,7 @@ function Listing() {
                 <div className="col-10 col-md-6 col-xl-4 my-3" key={project.id}>
                     <div className="card text-center p-3">
                         <h2>{project.name}</h2>
-                        <img src={project.src} alt={project.alt} />
+                        <img className='img-fluid' src={project.src} alt={project.alt} />
                     </div>
                 </div>
             ))}
