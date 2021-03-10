@@ -4,7 +4,7 @@ export const PROJECTS = [
         name: "Nucamp React",
         src: "images/React-Project.png",
         alt: "screenshot of MMM react project",
-        desc: "This was a Nucamp bootcamp project which was created in Bootstrap 4 initially. Later it was converted over to REACT and utalized Redux for state management. The site is a mock eatery called Muffins, Meatballs and Mules. ",
+        desc: "Nucamp bootcamp project created in Bootstrap 4 then converted over to REACT utalizing Redux for state management.",
         link: "https://jgilday01.github.io/react-project"
     },
     {
@@ -12,27 +12,29 @@ export const PROJECTS = [
         name: "Riverdale Global",
         src: "images/Riverdale.png",
         alt: "screenshot of riverdale global website",
-        desc: "Riverdale Global main website"
+        desc: "Riverdale Global main website",
+        link: "http://riverdaleglobal.com"
     },
     {
         id: 3,
         name: "Meet Globalbot",
         src: "images/GlobalBot.png",
         alt: "screenshot of meet globalbot website",
-        desc: "Marketing website for Globalbot"
+        desc: "Marketing website for Globalbot",
+        link: "http://meetglobalbot.com"
     },
     {
         id: 4,
-        name: "IMM120 Multimedia",
-        src: "images/IMM120.png",
-        alt: "screenshot of class project for IMM120",
-        desc: "Sample of a multimedia company"
-    },
-    {
-        id: 5,
-        name: "DPR241 band site",
+        name: "DCCC - DPR241",
         src: "images/DPR241.png",
         alt: "screenshot of meet globalbot website",
         desc: "sample band website"
+    },
+    {
+        id: 5,
+        name: "DCCC - IMM120",
+        src: "images/IMM120.png",
+        alt: "screenshot of class project for IMM120",
+        desc: "Sample of a multimedia company"
     }
 ];
