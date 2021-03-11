@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #333;
+  background: rgb(0, 0, 0);
   color: #EEE;
   
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,15 +16,30 @@ code {
     monospace;
 }
 
+#full-page {
+  background-color: #333;
+  max-width: 2400px;
+  margin: auto;
+}
+
+.flippy-container {
+  max-width: 420px;
+  margin: 0 auto;
+}
 
 .card {
   color: #EEE;
   background: #555;
+
 }
 
 
 .profile-img {
     border: 2px solid #777;
     margin: 0 35px;
-    width: 400px;
+    width: 420px;
+}
+
+.desc-box {
+  max-width: 300px;
 }
