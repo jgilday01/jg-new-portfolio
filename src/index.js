@@ -12,7 +12,7 @@ import { PROJECTS2 } from './shared/projects2'
 ReactDOM.render(
   <React.StrictMode>
     <div id="full-page">
-      <div className="container-fluid p-0">
+      <div className="container-fluid">
         <About />
         <Listing header={"Recent Projects"} projects={PROJECTS1} />
         <Listing header={"Other Projects"} projects={PROJECTS2} />

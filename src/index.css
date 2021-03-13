@@ -33,11 +33,12 @@ code {
 
 }
 
+.profile-img-wrap {
+  max-width: 300px;
+}
 
 .profile-img {
     border: 2px solid #777;
-    margin: 0 35px;
-    width: 420px;
 }
 
 .desc-box {
