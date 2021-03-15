@@ -13,9 +13,14 @@ ReactDOM.render(
   <React.StrictMode>
     <div id="full-page">
       <div className="container-fluid">
-        <About />
-        <Listing header={"Recent Projects"} projects={PROJECTS1} />
-        <Listing header={"Other Projects"} projects={PROJECTS2} />
+        <div>
+          <h1 className="text-center">Portfolio</h1>
+          <Listing header={"Nucamp Projects"} projects={PROJECTS1} />
+          <Listing header={"Other Projects"} projects={PROJECTS2} />
+          <hr />
+          <About />
+        </div>
+
       </div>
     </div>
   </React.StrictMode>,

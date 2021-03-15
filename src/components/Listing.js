@@ -7,7 +7,7 @@ function Listing({ header, projects} ) {
             <div className="col-12 offset-sm-1 col-sm-10">
                 <div className="row">
 
-                    <h1 className="text-center">{header}</h1>
+                    <h3 className="text-center">{header}</h3>
 
                     <div className={`${projects.length === 2 ? "col-lg-hidden col-xl-2" : ""}`}></div>
 
@@ -17,7 +17,7 @@ function Listing({ header, projects} ) {
                                 <FrontSide>
                                     <div>
                                         <div className="card text-center p-1">
-                                            <h4>{project.name}</h4>
+                                            <h5>{project.name}</h5>
                                             <img className='img-fluid' src={project.src} alt={project.alt} />
                                         </div>
                                     </div>
