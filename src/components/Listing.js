@@ -29,9 +29,21 @@ function Listing({ header, projects }) {
                                             <div className="offset-1 col-10 align-self-center">{project.desc}</div>
                                         </div>
                                         {
-                                            project.link ?
-                                                <a href={project.link} rel="noreferrer" target='_blank' className='btn btn-primary btn-sm mx-auto w-75 my-2'>View the site</a> :
-                                                <a href={project.link2} rel="noreferrer" target='_blank' className='btn btn-primary btn-sm mx-auto w-75 my-2'>See my code</a>
+                                            project.github ?
+                                                <div>
+                                                    <a href={project.github}
+                                                        rel="noreferrer"
+                                                        target='_blank'
+                                                        className='btn btn-primary btn-sm mx-auto col-6 m-2'>Github Code</a>
+                                                </div>
+                                                :
+                                                <div>
+                                                    <a href={project.link}
+                                                        rel="noreferrer"
+                                                        target='_blank'
+                                                        className='btn btn-primary btn-sm col-6 m-2'>View the site</a>
+                                                </div>
+
                                         }
                                     </div>
                                 </BackSide>

@@ -39,7 +39,7 @@ header {
 }
 
 .flippy-container {
-  max-width: 500px;
+  max-width: 465px;
   margin: 0 auto;
 }
 
@@ -54,6 +54,7 @@ header {
 }
 
 .about-details {
+  min-height: 500px;
   background: #DDD;
   color: #222;
 }

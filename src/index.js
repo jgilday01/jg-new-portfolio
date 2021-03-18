@@ -22,8 +22,8 @@ ReactDOM.render(
                 Hello, I'm <strong>John Gilday</strong>
               </div>
               <div className="display-6">
-                A passionate software developer with more than 4 years of experience,
-                team oriented, excellent communication skills, driven by creativity and collaboration.
+                A passionate software developer who is team oriented with excellent communication skills
+                and driven by creativity and collaboration.
             </div>
             </div>
           </header>
