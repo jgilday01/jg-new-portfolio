@@ -7,7 +7,7 @@ function Listing({ header, projects }) {
             <div className="col-12 offset-sm-1 col-sm-10">
                 <div className="row">
 
-                    <h3 className="text-center my-3">{header}</h3>
+                    <h2 className="text-center my-3">{header}</h2>
 
                     <div className={`${projects.length === 1 ? "col-md-hidden col-md-3" : ""}`}></div>
 
