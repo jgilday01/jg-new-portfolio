@@ -21,13 +21,19 @@ nav {
 }
 
 header {
-  background-color: #222;
+  /* photo by sergey-zolkin */
+  background-image: url('header/sergey-zolkin-keyboard.jpg');
+  background-position: center;
+  background-size: cover;
   height: 100vh;
   font-family: 'Lato', sans-serif;
 }
 
+.header-wrapper {
+  background:rgba(0, 0, 0, 0.65)
+}
+
 #full-page {
-  background-color: #333;
   max-width: 2000px;
   margin: auto;
 }
@@ -41,6 +47,10 @@ header {
   color: #EEE;
   background: #555;
 
+}
+
+.project-details {
+    background-color: #333;
 }
 
 .about-details {

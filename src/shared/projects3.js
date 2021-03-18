@@ -4,7 +4,7 @@ export const PROJECTS3 = [
         name: "DCCC - DPR241",
         src: "images/DPR241.png",
         alt: "screenshot of meet globalbot website",
-        desc: "Delaware County Community College Bootstrap 3 Project for Web Developemnt certification. This is a mock band website.",
+        desc: "This is a mock band website. Delaware County Community College Web Developemnt certification Bootstrap 3 Project.",
         link: "http://jagdccc.info/class/DPR241/index.html"
     }
 ];

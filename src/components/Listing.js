@@ -5,9 +5,9 @@ function Listing({ header, projects }) {
     return (
         <div className="row">
             <div className="col-12 offset-sm-1 col-sm-10">
-                <div className="row">
+                <div className="row mb-3">
 
-                    <h2 className="text-center my-3">{header}</h2>
+                    <h2 className="text-center m-0">{header}</h2>
 
                     <div className={`${projects.length === 1 ? "col-md-hidden col-md-3" : ""}`}></div>
 
