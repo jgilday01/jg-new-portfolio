@@ -18,12 +18,12 @@ code {
 
 #full-page {
   background-color: #333;
-  max-width: 2400px;
+  max-width: 2000px;
   margin: auto;
 }
 
 .flippy-container {
-  max-width: 420px;
+  max-width: 500px;
   margin: 0 auto;
 }
 

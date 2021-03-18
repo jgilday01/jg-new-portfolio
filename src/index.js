@@ -7,7 +7,7 @@ import Listing from './components/Listing'
 
 import { PROJECTS1 } from './shared/projects1'
 import { PROJECTS2 } from './shared/projects2'
-
+import { PROJECTS3 } from './shared/projects3'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +16,8 @@ ReactDOM.render(
         <div>
           <h1 className="text-center">Portfolio</h1>
           <Listing header={"Nucamp Projects"} projects={PROJECTS1} />
-          <Listing header={"Other Projects"} projects={PROJECTS2} />
+          <Listing header={"Riverdale Global Projects"} projects={PROJECTS2} />
+          <Listing header={"DCCC Project"} projects={PROJECTS3} />
           <hr />
           <About />
         </div>

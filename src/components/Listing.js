@@ -1,18 +1,18 @@
 import Flippy, { FrontSide, BackSide } from 'react-flippy'
 
-function Listing({ header, projects} ) {
+function Listing({ header, projects }) {
 
     return (
         <div className="row">
             <div className="col-12 offset-sm-1 col-sm-10">
                 <div className="row">
 
-                    <h3 className="text-center">{header}</h3>
+                    <h3 className="text-center my-3">{header}</h3>
 
-                    <div className={`${projects.length === 2 ? "col-lg-hidden col-xl-2" : ""}`}></div>
+                    <div className={`${projects.length === 1 ? "col-md-hidden col-md-3" : ""}`}></div>
 
                     {projects.map(project => (
-                        <div key={project.id} className="col-12 col-md-6 col-xl-4 my-3">
+                        <div key={project.id} className="col-12 col-md-6 my-3">
                             <Flippy flipOnClick={true} className="mx-auto">
                                 <FrontSide>
                                     <div>

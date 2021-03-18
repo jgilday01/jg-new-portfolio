@@ -5,7 +5,7 @@ function About() {
       <div className="offset-1 col-10">
 
 
-        <h1 className="text-center" id="About">ABOUT ME</h1>
+        <h1 className="text-center my-3" id="About">ABOUT ME</h1>
         <div className="row">
 
           <div className="col-12 col-lg-4">
