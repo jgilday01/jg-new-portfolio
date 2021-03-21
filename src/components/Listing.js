@@ -9,10 +9,10 @@ function Listing({ header, projects }) {
 
                     <h2 className="text-center m-0">{header}</h2>
 
-                    <div className={`${projects.length === 1 ? "col-md-hidden col-md-3" : ""}`}></div>
+                    <div className={`${projects.length === 1 ? "col-md-hidden col-lg-3" : ""}`}></div>
 
                     {projects.map(project => (
-                        <div key={project.id} className="col-12 col-md-6 my-3">
+                        <div key={project.id} className="col-12 col-lg-6 my-3">
                             <Flippy flipOnClick={true} className="mx-auto">
                                 <FrontSide>
                                     <div>
@@ -23,7 +23,7 @@ function Listing({ header, projects }) {
                                     </div>
                                 </FrontSide>
                                 <BackSide>
-                                    <div className="card text-center text-light bg-dark p-1 h-100">
+                                    <div className="card text-center text-light h-100">
                                         <h4 className="bg-secondary">{project.name}</h4>
                                         <div className="h-75 d-flex mx-auto desc-box">
                                             <div className="offset-1 col-10 align-self-center">{project.desc}</div>

@@ -39,21 +39,24 @@ header {
 }
 
 .flippy-container {
-  max-width: 465px;
+  max-width: 525px;
   margin: 0 auto;
+  background: rgb(37,37,37);
 }
 
 .card {
   color: #EEE;
-  background: #555;
+  background: rgb(65,65,65);
 
 }
 
 .project-details {
-    background-color: #333;
+    background-color: rgb(22,22,22);
+    font-size: 20px;
 }
 
 .about-details {
+  font-size: 16px;
   min-height: 500px;
   background: #DDD;
   color: #222;
@@ -64,9 +67,15 @@ header {
 }
 
 .profile-img {
-    border: 2px solid #777;
+  border: 2px solid #777;
 }
 
 .desc-box {
-  max-width: 300px;
+  max-width: 350px;
+}
+
+.flippy-back .card {
+  background: rgb(65,65,65);
+  background: linear-gradient(0deg, rgba(40,45,50,0.5) 0%, rgba(70,75,80,0.5) 100%);
+  border: 1px solid #777;
 }
