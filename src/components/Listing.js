@@ -1,4 +1,5 @@
 import Flippy, { FrontSide, BackSide } from 'react-flippy'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function Listing({ header, projects }) {
 
@@ -13,41 +14,43 @@ function Listing({ header, projects }) {
 
                     {projects.map(project => (
                         <div key={project.id} className="col-12 col-lg-6 my-3">
-                            <Flippy flipOnClick={true} className="mx-auto">
-                                <FrontSide>
-                                    <div>
-                                        <div className="card text-center p-1">
-                                            <h5>{project.name}</h5>
-                                            <img className='img-fluid' src={project.src} alt={project.alt} />
+                            <ScrollAnimation animateIn='zoomIn' animateOnce={true}>
+                                <Flippy flipOnClick={true} className="mx-auto">
+                                    <FrontSide>
+                                        <div>
+                                            <div className="card text-center p-1">
+                                                <h5>{project.name}</h5>
+                                                <img className='img-fluid' src={project.src} alt={project.alt} />
+                                            </div>
                                         </div>
-                                    </div>
-                                </FrontSide>
-                                <BackSide>
-                                    <div className="card text-center text-light h-100">
-                                        <h4 className="bg-secondary">{project.name}</h4>
-                                        <div className="h-75 d-flex mx-auto desc-box">
-                                            <div className="offset-1 col-10 align-self-center">{project.desc}</div>
-                                        </div>
-                                        {
-                                            project.github ?
-                                                <div>
-                                                    <a href={project.github}
-                                                        rel="noreferrer"
-                                                        target='_blank'
-                                                        className='btn btn-primary btn-sm mx-auto col-6 m-2'>Github Code</a>
-                                                </div>
-                                                :
-                                                <div>
-                                                    <a href={project.link}
-                                                        rel="noreferrer"
-                                                        target='_blank'
-                                                        className='btn btn-primary btn-sm col-6 m-2'>View the site</a>
-                                                </div>
+                                    </FrontSide>
+                                    <BackSide>
+                                        <div className="card text-center text-light h-100">
+                                            <h4 className="bg-secondary">{project.name}</h4>
+                                            <div className="h-75 d-flex mx-auto desc-box">
+                                                <div className="offset-1 col-10 align-self-center">{project.desc}</div>
+                                            </div>
+                                            {
+                                                project.github ?
+                                                    <div>
+                                                        <a href={project.github}
+                                                            rel="noreferrer"
+                                                            target='_blank'
+                                                            className='btn btn-primary btn-sm mx-auto col-6 m-2'>Github Code</a>
+                                                    </div>
+                                                    :
+                                                    <div>
+                                                        <a href={project.link}
+                                                            rel="noreferrer"
+                                                            target='_blank'
+                                                            className='btn btn-primary btn-sm col-6 m-2'>View the site</a>
+                                                    </div>
 
-                                        }
-                                    </div>
-                                </BackSide>
-                            </Flippy>
+                                            }
+                                        </div>
+                                    </BackSide>
+                                </Flippy>
+                            </ScrollAnimation>
                         </div>
                     ))}
 

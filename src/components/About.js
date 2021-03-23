@@ -1,4 +1,6 @@
 
+import ScrollAnimation from 'react-animate-on-scroll';
+
 function About() {
   return (
     <div className="row">
@@ -18,10 +20,12 @@ function About() {
             </p>
           </div>
 
-          <div className="col-12 col-lg-4">
-            <div className="profile-img-wrap mx-auto my-3 d-block">
-              <img src={'images/profile-pic.jpg'} className='profile-img rounded-circle img-fluid shadow-lg' alt='headshot' />
-            </div>
+          <div className="col-12 col-lg-4 pb-4">
+            <ScrollAnimation animateIn='flipInY' animateOnce={true}>
+              <div className="profile-img-wrap mx-auto my-3 d-block">
+                <img src={'images/profile-pic.jpg'} className='profile-img rounded-circle img-fluid shadow' alt='headshot' />
+              </div>
+            </ScrollAnimation>
           </div>
 
           <div className="col-12 col-lg-4">
@@ -31,7 +35,7 @@ function About() {
               Programming has allowed me to apply creative skills which I truly enjoy.
             </p>
             <p>
-              I also combine my interests in art, music and gaming by working in Unity 3d doing their tutorials and eventually building my own games. This gave me a chance to incorporate sound, music, graphics and also some coding logic.
+              I also have combined my interests in art, music and gaming by working in Unity 3d doing their tutorials and eventually building my own games. This gave me a chance to incorporate sound, music, graphics and also some coding logic.
             </p>
           </div>
 

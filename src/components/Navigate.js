@@ -18,7 +18,7 @@ function Navigate(props) {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbars-toggle">
+                    <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse my-3`} id="navbars-toggle">
                         <ul className="navbar-nav mx-auto text-center">
                             <li className="nav-item">
                                 <a className="nav-link" href="#full-page">HOME</a>
