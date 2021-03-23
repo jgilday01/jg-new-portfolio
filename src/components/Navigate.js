@@ -29,6 +29,9 @@ function Navigate(props) {
                             <li className="nav-item">
                                 <a className="nav-link" href="#About">ABOUT</a>
                             </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#Skills">SKILLS</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -41,6 +41,15 @@ function About() {
 
         </div>
 
+        <div className="row">
+          <a href="doc/John_Gilday_Resume.pdf"
+            target="_blank"
+            className="btn btn-dark mx-auto"
+            style={{width: '200px'}}
+          >
+            <i class="fa fa-file"></i> Resume
+          </a>
+        </div>
 
       </div>
     </div >
