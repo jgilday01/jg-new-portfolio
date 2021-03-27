@@ -14,7 +14,7 @@ export const PROJECTS1 = [
         name: "React Native App",
         src: "images/covid-app.png",
         alt: "screenshot of covid app",
-        desc: "Nucamp bootcamp project created using React Native which presents data on COVID trends using react-native-chart-kit for charting for visual displays of data.",
+        desc: "Nucamp bootcamp project created using React Native which presents data on COVID trends using react-native-chart-kit for visual displays of data.",
         github: "https://github.com/jgilday01/react-native-portfolio-project"
     }
 ];

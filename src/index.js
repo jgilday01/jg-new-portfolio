@@ -28,7 +28,7 @@ ReactDOM.render(
                   Hello, I'm <strong>John Gilday</strong>
                 </div>
                 <div className="display-6">
-                  A passionate software developer who is team oriented with excellent communication skills
+                  A passionate software developer who is team oriented
                   and driven by creativity and collaboration.
                 </div>
               </ScrollAnimation>

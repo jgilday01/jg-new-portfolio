@@ -10,8 +10,8 @@ function About() {
 
           <div className="col-12 col-lg-4">
             <p>
-              I have a passion for collaboration and creativity. I feel there is something special about taking a concept and then turning it into a reality.
-              </p>
+              I feel there is something special and very satisfying about taking a concept and then turning it into a reality.
+            </p>
             <p>
               In 2015 I completed a Web Development Certification
               at Delaware County Commuinty College learning web fundamentals like HTML, CSS, PHP and Bootstrap.
@@ -45,9 +45,9 @@ function About() {
           <a href="doc/John_Gilday_Resume.pdf"
             target="_blank"
             className="btn btn-dark mx-auto"
-            style={{width: '200px'}}
+            style={{ width: '200px' }}
           >
-            <i class="fa fa-file"></i> Resume
+            <i className="fa fa-file"></i> Resume
           </a>
         </div>
 

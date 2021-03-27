@@ -9,15 +9,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 nav {
   border-top: 1px solid #777;
   border-bottom: 1px solid #777;
-
 }
 
 header {
@@ -26,8 +20,8 @@ header {
   background-image: url('header/sergey-zolkin-keyboard.jpg');
   background-position: center;
   background-size: cover;
-  height: 100vh;
   font-family: 'Lato', sans-serif;
+  height: 100vh;
 }
 
 .header-wrapper {
@@ -40,9 +34,9 @@ header {
 }
 
 .flippy-container {
-  max-width: 525px;
   margin: 0 auto;
   background: rgb(37,37,37);
+  max-width: 555px;
 }
 
 .card {
@@ -52,8 +46,8 @@ header {
 }
 
 .project-details {
-    background-color: rgb(22,22,22);
-    font-size: 20px;
+  background-color: rgb(22,22,22);
+  font-size: 20px;
 }
 
 .about-details {
@@ -72,11 +66,22 @@ header {
 }
 
 .desc-box {
-  max-width: 350px;
+   max-width: 450px;
+   font-size: 17px;
+   font-size: clamp(15px, 4vw, 30px);
+   overflow: scroll;
 }
 
 .flippy-back .card {
   background: rgb(65,65,65);
   background: linear-gradient(0deg, rgba(40,45,50,0.5) 0%, rgba(70,75,80,0.5) 100%);
   border: 1px solid #777;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .desc-box {
+    font-size: 24px;
+    font-size: clamp(20px, 2.2vw, 35px);
+  }
 }
