@@ -1,4 +1,11 @@
+html {
+  height: -webkit-fill-available;
+}
+
 body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+
   margin: 0;
   padding: 0;
   background: rgb(0, 0, 0);
