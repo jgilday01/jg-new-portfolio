@@ -31,6 +31,10 @@ header {
   height: 100vh;
 }
 
+#particles-js {
+  height: 350px;
+}
+
 .header-wrapper {
   background:rgba(0, 0, 0, 0.65)
 }
@@ -85,8 +89,25 @@ header {
   border: 1px solid #777;
 }
 
+#Skills img {
+  width: 100%;
+  max-width: 150px;
+}
 
+
+/*  large screen + */
+@media only screen and (min-width: 420px) and (max-width: 991px) {
+  #particles-js {
+    height: 500px;
+  }
+}
+
+/*  large screen + */
 @media only screen and (min-width: 992px) {
+  #particles-js {
+    height: 300px;
+  }
+
   .desc-box {
     font-size: 24px;
     font-size: clamp(20px, 2.2vw, 35px);

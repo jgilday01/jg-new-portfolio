@@ -14,6 +14,9 @@ import { PROJECTS3 } from './shared/projects3'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
+import Particles from 'react-particles-js';
+
+
 ReactDOM.render(
   <React.StrictMode>
     <div id="full-page">
@@ -56,14 +59,55 @@ ReactDOM.render(
         </div>
 
         <div className="row">
-          <div id="Skills" className="p-3" style={{ background: 'rgb(33,44,55)' }}>
+          <div id="Skills" className="p-3 position-absolute">
             <h1 className="text-center my-3">SKILLS</h1>
             <Skills />
           </div>
+
+          <Particles id="particles-js"
+            params={{
+              canvas: {
+                h: "100px"
+              },
+              particles: {
+                number: {
+                  value: 400,
+                  density: {
+                    enable: true,
+                    value_area: 1000
+                  }
+                },
+                color: {
+                  value: '#a7f'
+                },
+                opacity: {
+                  value: 0.5,
+                  anim: {
+                    enable: true
+                  }
+                },
+                size: {
+                  value: 7,
+                  random: true,
+                  anim: {
+                    enable: true,
+                    speed: 3
+                  }
+                },
+                line_linked: {
+                  enable: false
+                },
+                move: {
+                  speed: 0.5
+                }
+              }
+            }}
+          />
+
         </div>
 
       </div>
     </div>
-  </React.StrictMode>,
+  </React.StrictMode >,
   document.getElementById('root')
 );
