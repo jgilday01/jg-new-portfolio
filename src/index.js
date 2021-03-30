@@ -24,7 +24,7 @@ ReactDOM.render(
 
         <div className="row">
           <header className="d-flex justify-content-center">
-            <div className="align-self-center w-75 mx-auto my-2 p-4 header-wrapper">
+            <div className="align-self-center w-100 mx-3 mx-md-5 my-2 p-4 header-wrapper">
               <ScrollAnimation animateIn='fadeIn' delay={1000} duration={5} animateOnce={true}>
 
                 <div className="display-2">
@@ -105,6 +105,8 @@ ReactDOM.render(
           />
 
         </div>
+
+        <div className="text-center p-2">Created using React &amp; Bootstrap 5</div>
 
       </div>
     </div>
