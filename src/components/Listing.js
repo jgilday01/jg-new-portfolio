@@ -8,7 +8,7 @@ function Listing({ header, projects }) {
             <div className="col-12 offset-sm-1 col-sm-10">
                 <div className="row mb-3">
 
-                    <ScrollAnimation animateIn='bounceInUp' animateOnce={true}>
+                    <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
                         <h2 className="text-center m-0">{header}</h2>
                     </ScrollAnimation>
 
@@ -30,8 +30,7 @@ function Listing({ header, projects }) {
                                         <div className="card text-center text-light h-100">
                                             <h4 className="bg-secondary p-2">{project.name}</h4>
                                             <div className="h-75 d-flex mx-auto desc-box">
-                                                {/* <div className="offset-1 col-10 align-self-center">{project.desc}</div> */}
-                                                <div className='align-self-center p-1'>{project.desc}</div>
+                                                <div className='align-self-center p-2'>{project.desc}</div>
                                             </div>
                                             {
                                                 project.github ?

@@ -21,7 +21,7 @@ function About() {
           </div>
 
           <div className="col-12 col-lg-4 pb-4">
-            <ScrollAnimation animateIn='flipInY' animateOnce={true}>
+            <ScrollAnimation animateIn='flipInX' animateOnce={true}>
               <div className="profile-img-wrap mx-auto my-3 d-block">
                 <img src={'images/profile-pic.jpg'} className='profile-img rounded-circle img-fluid shadow' alt='headshot' />
               </div>
@@ -47,7 +47,8 @@ function About() {
             className="btn btn-dark mx-auto"
             style={{ width: '200px' }}
           >
-            <i className="fa fa-file"></i> Resume
+            <i className="fa fa-file"></i>
+            Resume
           </a>
         </div>
 

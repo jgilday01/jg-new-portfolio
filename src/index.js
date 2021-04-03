@@ -43,8 +43,8 @@ ReactDOM.render(
         <Navigate />
 
         <div className="row">
-          <div className="p-3 project-details">
-            <h1 className="text-center my-3" id="Projects">PORTFOLIO</h1>
+          <div id="Projects" className="p-3 project-details">
+            <h1 className="text-center my-3" >PORTFOLIO</h1>
             <Listing header={"Nucamp Bootcamp"} projects={PROJECTS1} />
             <Listing header={"Riverdale Global"} projects={PROJECTS2} />
             <Listing header={"DCCC"} projects={PROJECTS3} />
