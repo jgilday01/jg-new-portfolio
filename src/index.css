@@ -110,6 +110,6 @@ header {
 
   .desc-box {
     font-size: 24px;
-    font-size: clamp(20px, 2.2vw, 35px);
+    font-size: clamp(20px, 2vw, 35px);
   }
 }
