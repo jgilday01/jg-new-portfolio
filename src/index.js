@@ -3,16 +3,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Intro from './components/Intro';
 import About from './components/About';
-import Listing from './components/Listing'
-import Navigate from './components/Navigate'
-import Skills from './components/Skills'
+import Listing from './components/Listing';
+import Navigate from './components/Navigate';
+import Skills from './components/Skills';
 
-import { PROJECTS1 } from './shared/projects1'
-import { PROJECTS2 } from './shared/projects2'
-import { PROJECTS3 } from './shared/projects3'
-
-import ScrollAnimation from 'react-animate-on-scroll';
+import { PROJECTS1 } from './shared/projects1';
+import { PROJECTS2 } from './shared/projects2';
+import { PROJECTS3 } from './shared/projects3';
 
 import Particles from 'react-particles-js';
 
@@ -23,20 +22,8 @@ ReactDOM.render(
       <div className="container-fluid">
 
         <div className="row">
-          <header className="d-flex justify-content-center">
-            <div className="align-self-center w-100 mx-3 mx-md-5 my-2 p-4 header-wrapper">
-              <ScrollAnimation animateIn='fadeIn' delay={1000} duration={5} animateOnce={true}>
-
-                <div className="display-2">
-                  Hello, I'm <strong>John Gilday</strong>
-                </div>
-                <div className="display-6">
-                  A passionate software developer who is team oriented
-                  and driven by creativity and collaboration.
-                </div>
-              </ScrollAnimation>
-            </div>
-
+          <header id='Intro' className="d-flex justify-content-center">
+            <Intro />
           </header>
         </div>
 

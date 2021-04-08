@@ -108,6 +108,10 @@ header {
     height: 300px;
   }
 
+  .header-wrapper {
+    width: 65%;
+  }
+
   .desc-box {
     font-size: 24px;
     font-size: clamp(20px, 2vw, 35px);
