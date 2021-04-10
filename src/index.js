@@ -53,12 +53,9 @@ ReactDOM.render(
 
           <Particles id="particles-js"
             params={{
-              canvas: {
-                h: "100%"
-              },
               particles: {
                 number: {
-                  value: 400,
+                  value: 500,
                   density: {
                     enable: true,
                     value_area: 1000
@@ -68,7 +65,7 @@ ReactDOM.render(
                   value: ['#A7F', '#6FDEFF', '#D73']
                 },
                 opacity: {
-                  value: 0.5,
+                  value: 0.65,
                   anim: {
                     enable: true
                   }
@@ -78,14 +75,14 @@ ReactDOM.render(
                   random: true,
                   anim: {
                     enable: true,
-                    speed: 3
+                    speed: 3.3
                   }
                 },
                 line_linked: {
                   enable: false
                 },
                 move: {
-                  speed: 2
+                  speed: 2.2
                 }
               }
             }}

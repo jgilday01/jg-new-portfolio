@@ -30,7 +30,7 @@ function Listing({ header, projects }) {
                                         <div className="card text-center text-light h-100">
                                             <h4 className="bg-secondary p-2">{project.name}</h4>
                                             <div className="h-75 d-flex mx-auto desc-box">
-                                                <div className='align-self-center p-2'>{project.desc}</div>
+                                                <div className='align-self-center p-2 p-md-3'>{project.desc}</div>
                                             </div>
                                             {
                                                 project.github ?
