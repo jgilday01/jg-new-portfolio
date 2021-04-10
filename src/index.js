@@ -54,7 +54,7 @@ ReactDOM.render(
           <Particles id="particles-js"
             params={{
               canvas: {
-                h: "100px"
+                h: "100%"
               },
               particles: {
                 number: {
@@ -65,7 +65,7 @@ ReactDOM.render(
                   }
                 },
                 color: {
-                  value: '#a7f'
+                  value: ['#A7F', '#6FDEFF', '#D73']
                 },
                 opacity: {
                   value: 0.5,
@@ -85,7 +85,7 @@ ReactDOM.render(
                   enable: false
                 },
                 move: {
-                  speed: 0.5
+                  speed: 2
                 }
               }
             }}
