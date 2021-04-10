@@ -79,7 +79,8 @@ header {
 .desc-box {
    max-width: 450px;
    font-size: 17px;
-   font-size: clamp(15px, 4vw, 30px);
+   line-height: 1.25;
+   font-size: clamp(17px, 5vw, 30px);
    overflow: scroll;
 }
 
