@@ -90,7 +90,7 @@ ReactDOM.render(
 
         </div>
 
-        <div className="text-center p-2">Created using React &amp; Bootstrap 5</div>
+        <div className="text-center p-2 m-3">Created using React &amp; Bootstrap 5</div>
 
       </div>
     </div>

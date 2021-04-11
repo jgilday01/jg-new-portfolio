@@ -32,7 +32,7 @@ header {
 }
 
 #particles-js {
-  height: 350px;
+  height: 525px;
 }
 
 .header-wrapper {
@@ -96,19 +96,20 @@ header {
 }
 
 
-/*  large screen + */
-@media only screen and (min-width: 420px) and (max-width: 991px) {
+@media only screen and (min-width: 425px) and (max-width: 650px) {
   #particles-js {
-    height: 500px;
+    height: 675px;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 991px) {
+  #particles-js {
+    height: 750px;
   }
 }
 
 /*  large screen + */
 @media only screen and (min-width: 992px) {
-  #particles-js {
-    height: 300px;
-  }
-
   .header-wrapper {
     width: 65%;
   }
