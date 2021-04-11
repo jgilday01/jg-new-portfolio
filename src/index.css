@@ -32,6 +32,8 @@ header {
 }
 
 #particles-js {
+  position: absolute;
+  z-index: 1;
   height: 525px;
 }
 
@@ -88,6 +90,10 @@ header {
   background: rgb(65,65,65);
   background: linear-gradient(0deg, rgba(40,45,50,0.5) 0%, rgba(70,75,80,0.5) 100%);
   border: 1px solid #777;
+}
+
+#Skills {
+  z-index: 2;
 }
 
 #Skills img {

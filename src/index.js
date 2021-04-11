@@ -45,8 +45,8 @@ ReactDOM.render(
           </div>
         </div>
 
-        <div className="row">
-          <div id="Skills" className="p-3 position-absolute">
+        <div className="row" style={{position: 'relative'}}>
+          <div id="Skills" className="p-3">
             <h1 className="text-center my-3">SKILLS</h1>
             <Skills />
           </div>
