@@ -21,10 +21,8 @@ nav {
   border-bottom: 1px solid #777;
 }
 
-header {
-  /* photo by sergey-zolkin */
+.header-img {
   background-attachment: fixed;
-  background-image: url('header/sergey-zolkin-keyboard.jpg');
   background-position: center;
   background-size: cover;
   font-family: 'Lato', sans-serif;
@@ -34,7 +32,7 @@ header {
 #particles-js {
   position: absolute;
   z-index: 1;
-  height: 525px;
+  height: 100%;
 }
 
 .header-wrapper {
@@ -96,23 +94,16 @@ header {
   z-index: 2;
 }
 
-#Skills img {
+#Skills .img-fo {
   width: 88%;
   max-width: 150px;
 }
 
-
-@media only screen and (min-width: 425px) and (max-width: 650px) {
-  #particles-js {
-    height: 675px;
-  }
+#Skills .img-be {
+  width: 98%;
+  max-width: 200px;
 }
 
-@media only screen and (min-width: 650px) and (max-width: 991px) {
-  #particles-js {
-    height: 750px;
-  }
-}
 
 /*  large screen + */
 @media only screen and (min-width: 992px) {
@@ -122,6 +113,6 @@ header {
 
   .desc-box {
     font-size: 24px;
-    font-size: clamp(20px, 2vw, 35px);
+    font-size: clamp(24px, 2vw, 33px);
   }
 }

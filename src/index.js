@@ -15,14 +15,14 @@ import { PROJECTS3 } from './shared/projects3';
 
 import Particles from 'react-particles-js';
 
-
 ReactDOM.render(
   <React.StrictMode>
     <div id="full-page">
       <div className="container-fluid">
 
         <div className="row">
-          <header id='Intro' className="d-flex justify-content-center">
+          <header id='Intro' className="d-flex justify-content-center header-img"
+            style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/images/header/sergey-zolkin-keyboard.jpg' })` /* photo by sergey-zolkin */ }}>
             <Intro />
           </header>
         </div>
@@ -71,11 +71,11 @@ ReactDOM.render(
                   }
                 },
                 size: {
-                  value: 7,
+                  value: 5,
                   random: true,
                   anim: {
                     enable: true,
-                    speed: 3.3
+                    speed: 3
                   }
                 },
                 line_linked: {
@@ -90,7 +90,12 @@ ReactDOM.render(
 
         </div>
 
-        <div className="text-center p-2 m-3">Created using React &amp; Bootstrap 5</div>
+        <div className="row">
+          <div className="text-center p-2 mt-3 bg-dark">
+            <p className="my-2">Created using React &amp; Bootstrap 5</p>
+            <p className="my-2">John Gilday &copy; 2021</p>
+          </div>
+        </div>
 
       </div>
     </div>
