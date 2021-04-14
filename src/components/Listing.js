@@ -5,7 +5,7 @@ function Listing({ header, projects }) {
 
     return (
         <div className="row">
-            <div className="col-12 offset-sm-1 col-sm-10">
+            <div className="col-12 offset-sm-1 col-sm-10 offset-xl-2 col-xl-8 p-3">
                 <div className="row mb-3">
 
                     <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
