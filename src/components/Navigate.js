@@ -7,7 +7,7 @@ function Navigate(props) {
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
     return (
-        <div className="row  sticky-top ">
+        <div className="row">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
 
