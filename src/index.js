@@ -55,10 +55,10 @@ ReactDOM.render(
             params={{
               particles: {
                 number: {
-                  value: 500,
+                  value: 333,
                   density: {
                     enable: true,
-                    value_area: 1000
+                    value_area: 1111
                   }
                 },
                 color: {
@@ -71,18 +71,18 @@ ReactDOM.render(
                   }
                 },
                 size: {
-                  value: 5,
+                  value: 3,
                   random: true,
                   anim: {
                     enable: true,
-                    speed: 3
+                    speed: 1.5
                   }
                 },
                 line_linked: {
                   enable: false
                 },
                 move: {
-                  speed: 2.2
+                  speed: 1
                 }
               }
             }}

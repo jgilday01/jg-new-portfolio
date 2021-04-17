@@ -8,7 +8,7 @@ function Listing({ header, projects }) {
             <div className="col-12 offset-sm-1 col-sm-10 offset-xl-2 col-xl-8 p-3">
                 <div className="row mb-3">
 
-                    <ScrollAnimation animateIn='fadeInUp' animateOnce={true}>
+                    <ScrollAnimation animateIn='fadeInUp' animateOut='fadeOut'>
                         <h2 className="text-center m-0">{header}</h2>
                     </ScrollAnimation>
 
@@ -16,7 +16,7 @@ function Listing({ header, projects }) {
 
                     {projects.map(project => (
                         <div key={project.id} className="col-12 col-lg-6 my-3 my-xl-5">
-                            <ScrollAnimation animateIn='zoomIn' animateOnce={true}>
+                            <ScrollAnimation animateIn='zoomIn' animateOut='zoomOut'>
                                 <Flippy flipOnClick={true} className="mx-auto">
                                     <FrontSide>
                                         <div>
