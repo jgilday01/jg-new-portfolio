@@ -104,6 +104,30 @@ nav {
   max-width: 200px;
 }
 
+/*Scroll to Top*/
+.back-to-top .top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #FF9900;
+  z-index: 2;
+  width: 65px; height: 65x;
+  line-height: 65px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.back-to-top .top:hover {
+  color: #333;
+  background: #77FF00;
+  font-weight: bold;
+}
+
 
 /*  large screen + */
 @media only screen and (min-width: 992px) {

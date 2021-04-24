@@ -8,6 +8,7 @@ import About from './components/About';
 import Listing from './components/Listing';
 import Navigate from './components/Navigate';
 import Skills from './components/Skills';
+import Scrolling from './components/Scrolling';
 
 import { PROJECTS1 } from './shared/projects1';
 import { PROJECTS2 } from './shared/projects2';
@@ -96,6 +97,8 @@ ReactDOM.render(
             <p className="my-2">John Gilday &copy; 2021</p>
           </div>
         </div>
+
+       <Scrolling /> 
 
       </div>
     </div>
