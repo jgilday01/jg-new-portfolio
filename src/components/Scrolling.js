@@ -36,6 +36,7 @@ class Scrolling extends Component {
 
     render() {
         const { is_visible } = this.state;
+        
         return (
             <div className="back-to-top show-back-to-top">
                 {is_visible && (
