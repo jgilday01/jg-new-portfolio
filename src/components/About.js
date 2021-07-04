@@ -1,4 +1,7 @@
 import ScrollAnimation from 'react-animate-on-scroll';
+import { FilePost } from 'react-bootstrap-icons';
+import { FaLinkedin } from 'react-icons/fa'
+
 
 function About() {
   return (
@@ -41,14 +44,29 @@ function About() {
         </div>
 
         <div className="row">
-          <a href="doc/John_Gilday_Resume.pdf"
-            target="_blank"
-            className="btn btn-dark mx-auto"
-            style={{ width: '200px' }}
-          >
-            <i className="fa fa-file"></i>
-            Resume
-          </a>
+          <div className="col-12 text-center mt-3">
+            <a href="doc/John_Gilday_Resume.pdf"
+              target="_blank"
+              className="btn btn-dark mx-auto"
+              style={{ width: '200px' }}
+            >
+              <span>
+                <FilePost />&nbsp;Resume
+              </span>
+            </a>
+          </div>
+          <div className="col-12 text-center mt-3">
+
+            <a href="https://www.linkedin.com/in/johngilday/"
+              target="_blank"
+              className="btn btn-dark mx-auto"
+              style={{ width: '200px' }}
+            >
+              <span>
+                <FaLinkedin />&nbsp;LinkedIn
+              </span>
+            </a>
+          </div>
         </div>
 
       </div>
