@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FaArrowAltCircleUp } from 'react-icons/fa'
 
 class Scrolling extends Component {
     constructor(props) {
@@ -41,7 +42,7 @@ class Scrolling extends Component {
             <div className="back-to-top show-back-to-top">
                 {is_visible && (
                     <div className="top" onClick={() => this.scrollToTop()}>
-                        {/* Top */}
+                        <FaArrowAltCircleUp/>
                     </div>
                 )}
             </div>

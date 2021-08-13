@@ -47,6 +47,7 @@ function About() {
           <div className="col-12 text-center mt-3">
             <a href="doc/John_Gilday_Resume.pdf"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-dark mx-auto"
               style={{ width: '200px' }}
             >
@@ -59,6 +60,7 @@ function About() {
 
             <a href="https://www.linkedin.com/in/johngilday/"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-dark mx-auto"
               style={{ width: '200px' }}
             >
