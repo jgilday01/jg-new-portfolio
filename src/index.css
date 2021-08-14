@@ -110,12 +110,12 @@ nav {
   cursor: pointer;
   bottom: 15px;
   right: 15px;
-  font-size: 20px;
+  font-size: 25px;
   color: #ffffff;
   background-color: #FF9900;
   z-index: 2;
-  width: 65px; height: 65x;
-  line-height: 65px;
+  width: 45px; height: 45px;
+  line-height: 42px;
   text-align: center;
   border-radius: 50%;
   -webkit-transition: 1s;
