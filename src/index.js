@@ -13,6 +13,7 @@ import Scrolling from './components/Scrolling';
 import { PROJECTS1 } from './shared/projects1';
 import { PROJECTS2 } from './shared/projects2';
 import { PROJECTS3 } from './shared/projects3';
+import { PROJECTS4 } from './shared/projects4';
 
 import Particles from 'react-particles-js';
 
@@ -23,7 +24,7 @@ ReactDOM.render(
 
         <div className="row">
           <header id='Intro' className="d-flex justify-content-center header-img"
-            style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/images/header/sergey-zolkin-keyboard.jpg' })` /* photo by sergey-zolkin */ }}>
+            style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/images/header/sergey-zolkin-keyboard.jpg'})` /* photo by sergey-zolkin */ }}>
             <Intro />
           </header>
         </div>
@@ -36,6 +37,7 @@ ReactDOM.render(
             <Listing header={"Nucamp Bootcamp"} projects={PROJECTS1} />
             <Listing header={"Riverdale Global"} projects={PROJECTS2} />
             <Listing header={"DCCC"} projects={PROJECTS3} />
+            <Listing header={"Games"} projects={PROJECTS4} />
           </div>
         </div>
 
@@ -46,7 +48,7 @@ ReactDOM.render(
           </div>
         </div>
 
-        <div className="row" style={{position: 'relative'}}>
+        <div className="row" style={{ position: 'relative' }}>
           <div id="Skills" className="p-3">
             <h1 className="text-center my-3">SKILLS</h1>
             <Skills />
@@ -98,7 +100,7 @@ ReactDOM.render(
           </div>
         </div>
 
-       <Scrolling /> 
+        <Scrolling />
 
       </div>
     </div>
