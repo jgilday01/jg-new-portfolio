@@ -1,10 +1,20 @@
 export const PROJECTS3 = [
     {
-        id: 5,
-        name: "DCCC - DPR241",
-        src: "images/DPR241.png",
-        alt: "screenshot of meet globalbot website",
-        desc: "A mock band website created in Bootstrap 3 for Delaware County Community College DPR241 class as part of my 2015 Web Development Certification.",
-        link: "http://jagdccc.info/class/DPR241/index.html"
+        id: 6,
+        name: "Match Master",
+        src: "images/Match-Master.png",
+        alt: "screenshot of match master game",
+        desc: "Match Master was originally created using UnityScript but has been converted to C# in Unity Game Engine",
+        link: "games/Match-Master",
+        unity: true
+    },
+    {
+        id: 7,
+        name: "Space Shooter",
+        src: "images/Space-Shooter.png",
+        alt: "screenshot of space shooter game",
+        desc: "Space Shooter was originally created using UnityScript but has been converted to C# in Unity Game Engine",
+        link: "games/Space-Shooter",
+        unity: true
     }
 ];

@@ -13,7 +13,6 @@ import Scrolling from './components/Scrolling';
 import { PROJECTS1 } from './shared/projects1';
 import { PROJECTS2 } from './shared/projects2';
 import { PROJECTS3 } from './shared/projects3';
-import { PROJECTS4 } from './shared/projects4';
 
 import Particles from 'react-particles-js';
 
@@ -36,15 +35,7 @@ ReactDOM.render(
             <h1 className="text-center my-3" >PORTFOLIO</h1>
             <Listing header={"Nucamp Bootcamp"} projects={PROJECTS1} />
             <Listing header={"Riverdale Global"} projects={PROJECTS2} />
-            <Listing header={"DCCC"} projects={PROJECTS3} />
-            <Listing header={"Games"} projects={PROJECTS4} />
-          </div>
-        </div>
-
-        <div className="row">
-          <div id="About" className="about-details p-3">
-            <h1 className="text-center my-3">ABOUT ME</h1>
-            <About />
+            <Listing header={"Games"} projects={PROJECTS3} />
           </div>
         </div>
 
@@ -91,6 +82,13 @@ ReactDOM.render(
             }}
           />
 
+        </div>
+
+        <div className="row">
+          <div id="About" className="about-details p-3">
+            <h1 className="text-center my-3">ABOUT ME</h1>
+            <About />
+          </div>
         </div>
 
         <div className="row">

@@ -7,20 +7,17 @@ function Skills() {
 
                 <div className="row my-3">
                     <h3 className="text-center w-100 mb-3">= Front End =</h3>
-                    <div className="col-4 col-lg-2 p-2 text-center">
+                    <div className="offset-2 col-4 offset-lg-1 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_html.png'} className='img-fluid shadow img-fo' alt='html' />
                     </div>
                     <div className="col-4 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_css3.png'} className='img-fluid shadow img-fo' alt='css' />
                     </div>
                     <div className="col-4 col-lg-2 p-2 text-center">
-                        <img src={'images/icons/skills_js.png'} className='img-fluid shadow img-fo' alt='javascript' />
-                    </div>
-                    <div className="col-4 col-lg-2 p-2 text-center">
-                        <img src={'images/icons/skills_jquery.png'} className='img-fluid shadow img-fo' alt='jquery' />
-                    </div>
-                    <div className="col-4 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_bootstrap.png'} className='img-fluid shadow img-fo' alt='bootstrap' />
+                    </div>
+                    <div className="col-4 col-lg-2 p-2 text-center">
+                        <img src={'images/icons/skills_js.png'} className='img-fluid shadow img-fo' alt='javascript' />
                     </div>
                     <div className="col-4 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_react.png'} className='img-fluid shadow img-fo' alt='react' />
@@ -29,11 +26,36 @@ function Skills() {
 
                 <div className="row mt-5">
                     <h3 className="text-center w-100">= Back End =</h3>
-                    <div className="offset-2 col-4 offset-lg-4 col-lg-2 p-2 text-center">
+                    <div className="offset-2 col-4 offset-lg-1 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_php.png'} className='img-fluid shadow img-be' alt='php' />
                     </div>
                     <div className="col-4 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_MySQL.png'} className='img-fluid shadow img-be' alt='mysql' />
+                    </div>
+                    <div className="col-4 col-lg-2 p-2 text-center">
+                        <img src={'images/icons/skills_terraform.png'} className='img-fluid shadow img-be' alt='terraform' />
+                    </div>
+                    <div className="col-4 col-lg-2 p-2 text-center">
+                        <img src={'images/icons/skills_helm.png'} className='img-fluid shadow img-be' alt='helm' />
+                    </div>
+                    <div className="col-4 col-lg-2 p-2 text-center">
+                        <img src={'images/icons/skills_aws.png'} className='img-fluid shadow img-be' alt='aws' />
+                    </div>
+                </div>
+
+                <div className="row mt-5">
+                    <h3 className="text-center w-100">= CI / CD =</h3>
+                    <div className="offset-2 col-4 offset-lg-2 col-lg-2 p-2 text-center">
+                        <img src={'images/icons/skills_git.png'} className='img-fluid shadow img-be' alt='git' />
+                    </div>
+                    <div className="col-4 col-lg-2 p-2 text-center">
+                        <img src={'images/icons/skills_jenkins.png'} className='img-fluid shadow img-be' alt='jenkins' />
+                    </div>
+                    <div className="offset-2 col-4 offset-lg-0 col-lg-2 p-2 text-center">
+                        <img src={'images/icons/skills_postman.png'} className='img-fluid shadow img-be' alt='postman' />
+                    </div>
+                    <div className="col-4 col-lg-2 p-2 text-center">
+                        <img src={'images/icons/skills_gitlab.png'} className='img-fluid shadow img-be' alt='gitlab' />
                     </div>
                 </div>
 

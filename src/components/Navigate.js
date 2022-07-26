@@ -27,10 +27,10 @@ function Navigate(props) {
                                 <a className="nav-link" href="#Projects">PROJECTS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#About">ABOUT</a>
+                                <a className="nav-link" href="#Skills">SKILLS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#Skills">SKILLS</a>
+                                <a className="nav-link" href="#About">ABOUT</a>
                             </li>
                         </ul>
                     </div>

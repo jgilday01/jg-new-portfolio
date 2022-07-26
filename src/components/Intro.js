@@ -9,7 +9,7 @@ function Intro() {
                     Hello, I'm <strong>John Gilday</strong>
                 </div>
                 <div className="display-5">
-                    A software developer with 5+ years experience in development and a passion for creativity and collaboration.
+                    A software developer with 6+ years experience in development and a passion for creativity and collaboration.
                 </div>
             </ScrollAnimation>
         </div>
