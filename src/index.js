@@ -92,7 +92,7 @@ ReactDOM.render(
         </div>
 
         <div className="row">
-          <div className="text-center p-2 mt-3 bg-dark">
+          <div className="text-center p-2 bg-dark">
             <p className="my-2">Created using React &amp; Bootstrap 5</p>
             <p className="my-2">John Gilday &copy; 2021</p>
           </div>
