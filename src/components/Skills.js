@@ -51,7 +51,7 @@ function Skills() {
                     <div className="col-4 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_jenkins.png'} className='img-fluid shadow img-be' alt='jenkins' />
                     </div>
-                    <div className="offset-2 col-4 offset-lg-0 col-lg-2 p-2 text-center">
+                    <div className="col-4 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_postman.png'} className='img-fluid shadow img-be' alt='postman' />
                     </div>
                     <div className="col-4 col-lg-2 p-2 text-center">
