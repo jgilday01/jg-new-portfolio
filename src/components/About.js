@@ -12,13 +12,18 @@ function About() {
 
           <div className="col-12 col-lg-4">
             <p>
-              I feel there is something special and very satisfying about taking a concept and then turning it into a reality.
+              I have worked in Information Technology since 2007.
+              Working in Web Development has been my favorite part of working in IT.
+              Programming has allowed me to apply creative skills which I truly enjoy.
             </p>
             <p>
-              In 2015 I completed a Web Development Certification
-              at Delaware County Commuinty College learning web fundamentals like HTML, CSS, PHP and Bootstrap.
-              I started working in Web Development and as a Software Developer in May of 2016.
-              In 2020 I completed the Front End and Mobile Development Certification at Nucamp working with REACT and REACT NATIVE.
+              I also have combined my interests in art, music and gaming
+              by working in Unity Game Engine doing tutorials and eventually building my own games.
+              This gave me a chance to incorporate sound, music, graphics and even some coding logic.
+            </p>
+            <p>
+              I feel there is something very special and satisfying
+              about taking a concept in your head and then turning it into a tangible reality.
             </p>
           </div>
 
@@ -32,15 +37,21 @@ function About() {
 
           <div className="col-12 col-lg-4">
             <p>
-              I have worked in Information Technology since 2007.
-              Working in Web Development has been my favorite part of working in IT.
-              Programming has allowed me to apply creative skills which I truly enjoy.
+              In 2015, I completed a Web Development Certification at Delaware County Community College
+              learning web fundamentals like HTML, CSS, PHP and Bootstrap.
+              After completion of the Certification
+              I started working in Web Development as a Software Developer in May of 2016.
             </p>
             <p>
-              I also have combined my interests in art, music and gaming by working in Unity 3d doing their tutorials and eventually building my own games. This gave me a chance to incorporate sound, music, graphics and also some coding logic.
+              Then in 2020, I completed the Front End and Mobile Development Certification
+              at NuCamp BootCamp doing projects in REACT and REACT NATIVE to grow my front end skills.
             </p>
-          </div>
+            <p>
+              Most recently, starting in 2021, I have worked in consulting
+              where I worked on several different projects which had a wide variety of varied technologies. 
+            </p>
 
+          </div>
         </div>
 
         <div className="row">

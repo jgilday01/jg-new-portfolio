@@ -9,12 +9,13 @@ import Listing from './components/Listing';
 import Navigate from './components/Navigate';
 import Skills from './components/Skills';
 import Scrolling from './components/Scrolling';
+import ParticleBackground from './components/Particles';
 
 import { PROJECTS1 } from './shared/projects1';
 import { PROJECTS2 } from './shared/projects2';
 import { PROJECTS3 } from './shared/projects3';
 
-import Particles from 'react-particles-js';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -32,7 +33,7 @@ ReactDOM.render(
 
         <div className="row">
           <div id="Projects" className="p-3 project-details">
-            <h1 className="text-center my-3" >PORTFOLIO</h1>
+            <h1 className="text-center my-3" >PROJECTS</h1>
             <Listing header={"Nucamp Bootcamp"} projects={PROJECTS1} />
             <Listing header={"Riverdale Global"} projects={PROJECTS2} />
             <Listing header={"Games"} projects={PROJECTS3} />
@@ -45,42 +46,7 @@ ReactDOM.render(
             <Skills />
           </div>
 
-          <Particles id="particles-js"
-            params={{
-              particles: {
-                number: {
-                  value: 333,
-                  density: {
-                    enable: true,
-                    value_area: 1111
-                  }
-                },
-                color: {
-                  value: ['#A7F', '#6FDEFF', '#D73']
-                },
-                opacity: {
-                  value: 0.65,
-                  anim: {
-                    enable: true
-                  }
-                },
-                size: {
-                  value: 3,
-                  random: true,
-                  anim: {
-                    enable: true,
-                    speed: 1.5
-                  }
-                },
-                line_linked: {
-                  enable: false
-                },
-                move: {
-                  speed: 1
-                }
-              }
-            }}
-          />
+          <ParticleBackground />
 
         </div>
 
@@ -94,7 +60,7 @@ ReactDOM.render(
         <div className="row">
           <div className="text-center p-2 bg-dark">
             <p className="my-2">Created using React &amp; Bootstrap 5</p>
-            <p className="my-2">John Gilday &copy; 2021</p>
+            <p className="my-2">John Gilday &copy; 2023</p>
           </div>
         </div>
 

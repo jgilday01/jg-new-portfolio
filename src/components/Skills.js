@@ -25,6 +25,9 @@ function Skills() {
 
                 <div className="row">
                     <div className="offset-2 col-4 offset-lg-1 col-lg-2 p-2 text-center">
+                        <img src={'images/icons/skills_python.png'} className='img-fluid shadow img-be' alt='python' />
+                    </div>
+                    <div className="col-4 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_php.png'} className='img-fluid shadow img-be' alt='php' />
                     </div>
                     <div className="col-4 col-lg-2 p-2 text-center">
@@ -36,14 +39,14 @@ function Skills() {
                     <div className="col-4 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_helm.png'} className='img-fluid shadow img-be' alt='helm' />
                     </div>
-                    <div className="col-4 col-lg-2 p-2 text-center">
-                        <img src={'images/icons/skills_aws.png'} className='img-fluid shadow img-be' alt='aws' />
-                    </div>
                 </div>
 
                 <div className="row">
-                    <div className="offset-2 col-4 offset-lg-2 col-lg-2 p-2 text-center">
+                    <div className="offset-2 col-4 offset-lg-1 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_git.png'} className='img-fluid shadow img-be' alt='git' />
+                    </div>
+                    <div className="col-4 col-lg-2 p-2 text-center">
+                        <img src={'images/icons/skills_aws.png'} className='img-fluid shadow img-be' alt='php' />
                     </div>
                     <div className="col-4 col-lg-2 p-2 text-center">
                         <img src={'images/icons/skills_jenkins.png'} className='img-fluid shadow img-be' alt='jenkins' />

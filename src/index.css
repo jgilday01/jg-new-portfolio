@@ -22,7 +22,9 @@ nav {
 }
 
 .header-wrapper {
-  background: rgba(0, 0, 0, 0.65)
+  border: 2px solid darkgray;
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 7px;
 }
 
 .header-text {
@@ -67,14 +69,14 @@ nav {
 }
 
 .about-details {
-  font-size: 16px;
+  font-size: 15px;
   min-height: 500px;
   background: #DDD;
   color: #222;
 }
 
 .profile-img-wrap {
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .profile-img {
@@ -83,10 +85,10 @@ nav {
 
 .desc-box {
   max-width: 450px;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.25;
   font-size: clamp(17px, 5vw, 30px);
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .flippy-back .card {
@@ -143,7 +145,7 @@ nav {
   }
 
   .desc-box {
-    font-size: 24px;
-    font-size: clamp(24px, 2vw, 33px);
+    font-size: 22px;
+    font-size: clamp(22px, 2vw, 33px);
   }
 }
