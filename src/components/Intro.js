@@ -9,8 +9,8 @@ function Intro() {
                 </div>
                 <div className="display-6">
                     An enthusiastic software developer with over 7 years of experience,
-                    an excellent team player, an effective communicator, a lifelong learner,
-                    and fueled by a passion for creativity and collaboration.
+                    an excellent team player, an effective communicator, a problem solver,
+                    a lifelong learner who is fueled by a passion for creativity and collaboration.
                 </div>
             </ScrollAnimation>
         </div>
