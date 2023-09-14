@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Intro from './components/Intro';
 import About from './components/About';
-import Listing from './components/Listing';
+import Projects from './components/Projects';
 import Navigate from './components/Navigate';
 import Skills from './components/Skills';
 import Scrolling from './components/Scrolling';
@@ -34,9 +34,9 @@ ReactDOM.render(
         <div className="row">
           <div id="Projects" className="p-3 project-details">
             <h1 className="text-center my-3" >PROJECTS</h1>
-            <Listing header={"Nucamp Bootcamp"} projects={PROJECTS1} />
-            <Listing header={"Riverdale Global"} projects={PROJECTS2} />
-            <Listing header={"Games"} projects={PROJECTS3} />
+            <Projects header={"Nucamp Bootcamp"} projects={PROJECTS1} />
+            <Projects header={"Riverdale Global"} projects={PROJECTS2} />
+            <Projects header={"Games"} projects={PROJECTS3} />
           </div>
         </div>
 

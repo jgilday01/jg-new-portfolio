@@ -10,10 +10,10 @@ export const PROJECTS3 = [
     },
     {
         id: 5,
-        name: "Space Shooter",
-        src: "images/Space-Shooter.png",
-        alt: "screenshot of space shooter game",
-        desc: "Space Shooter was originally created using UnityScript but has been converted to C# in Unity Game Engine",
+        name: "Asteroid Blaster",
+        src: "images/Asteroid-Blaster.png",
+        alt: "screenshot of asteroid blaster game",
+        desc: "Asteroid Blaster was originally created using UnityScript but has been converted to C# in Unity Game Engine",
         link: "games/Space-Shooter",
         btnTxt: "Play the Game"
     }
