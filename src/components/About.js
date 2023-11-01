@@ -56,18 +56,6 @@ function About() {
 
         <div className="row">
           <div className="col-12 text-center mt-3">
-            <a href="doc/John_Gilday_Resume.pdf"
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-dark mx-auto"
-              style={{ width: '200px' }}
-            >
-              <span>
-                <FilePost />&nbsp;Resume
-              </span>
-            </a>
-          </div>
-          <div className="col-12 text-center mt-3">
 
             <a href="https://www.linkedin.com/in/johngilday/"
               target="_blank"
