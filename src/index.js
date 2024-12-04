@@ -15,7 +15,6 @@ import { PROJECTS2 } from './shared/projects2';
 import { PROJECTS3 } from './shared/projects3';
 
 
-
 ReactDOM.render(
   <React.StrictMode>
     <div id="full-page">
@@ -35,7 +34,13 @@ ReactDOM.render(
             <h1 className="text-center my-3" >PROJECTS</h1>
             <Projects header={"Nucamp Bootcamp"} projects={PROJECTS1} />
             <Projects header={"Riverdale Global"} projects={PROJECTS2} />
-            <Projects header={"Games"} projects={PROJECTS3} />
+          </div>
+        </div>
+
+        <div className="row">
+          <div id="Games" className="p-3">
+            <h1 className="text-center my-3" >GAMES</h1>
+            <Projects projects={PROJECTS3} />
           </div>
         </div>
 
@@ -57,7 +62,7 @@ ReactDOM.render(
         <div className="row">
           <div className="text-center p-2 bg-dark">
             <p className="my-2">Created using React &amp; Bootstrap 5</p>
-            <p className="my-2">John Gilday &copy; 2023</p>
+            <p className="my-2">John Gilday &copy; 2024</p>
           </div>
         </div>
 
