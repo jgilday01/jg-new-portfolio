@@ -9,7 +9,6 @@ import Projects from './components/Projects';
 import Navigate from './components/Navigate';
 import Skills from './components/Skills';
 import Scrolling from './components/Scrolling';
-import ParticleBackground from './components/Particles';
 
 import { PROJECTS1 } from './shared/projects1';
 import { PROJECTS2 } from './shared/projects2';
@@ -45,8 +44,6 @@ ReactDOM.render(
             <h1 className="text-center my-3">SKILLS</h1>
             <Skills />
           </div>
-
-          <ParticleBackground />
 
         </div>
 
