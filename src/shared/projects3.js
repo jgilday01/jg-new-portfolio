@@ -5,7 +5,7 @@ export const PROJECTS3 = [
         src: "images/Match-Master.png",
         alt: "screenshot of match master game",
         desc: "Match Master was originally created using UnityScript but has been converted to C# in Unity Game Engine",
-        link: "games/Match-Master",
+        link: "https://games.johngilday.com/Match-Master",
         btnTxt: "Play the Game"
     },
     {
@@ -14,7 +14,7 @@ export const PROJECTS3 = [
         src: "images/Asteroid-Blaster.png",
         alt: "screenshot of asteroid blaster game",
         desc: "Asteroid Blaster was originally created using UnityScript but has been converted to C# in Unity Game Engine",
-        link: "games/Space-Shooter",
+        link: "https://games.johngilday.com/Asteroid-Blaster",
         btnTxt: "Play the Game"
     }
 ];
